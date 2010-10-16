@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# firefox will call twinkle_tel like this:
+
+number=`echo "$1" | sed 's/tel://'`
+if [ $number = disconnect ]; then
+    exec /usr/bin/twinkle --cmd bye
+else
+    exec /usr/bin/twinkle --call "$number" --immediate
+fi
+
