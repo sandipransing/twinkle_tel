@@ -15,7 +15,12 @@ On linux machine following settings needs to be done in order to get in browser 
 HTML source code of phone number should like as below
 
 1. Dialing source code
-    <a title="disconnect call" class="telified" href="tel:disconnect">Disconnect</a>
+    <a title="phone number" class="telified" nr="9860648108" href="tel:9860648108">9860648108</a>
 
 2. Call disconnect source code
-    <a title="phone number" class="telified" nr="9860648108" href="tel:9860648108">9860648108</a>
+    <a title="disconnect call" class="telified" href="tel:disconnect">Disconnect</a>
+
+thats, all
+
+any sugestions? **san2821 at gmail.com** or **sandip at joshsoftware.com** released under the MIT license
+
